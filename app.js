@@ -8,7 +8,7 @@ function saudacao(nome) {
 
     }
 
-    return `Ola, ${nome}! Bem-vindo ao nosso sistema CI/CD!`;
+    return `OLA, ${nome}! Bem-vindo ao nosso sistema CI/CD!`;
 
 }
 
@@ -42,7 +42,7 @@ function calcular(a, b, operacao) {
 
 }
 
-// Exportar funcoes para testes (em ambiente Node.js)
+// Exportar funsoes para testes (em ambiente Node.js)
 
 if (typeof module !== 'undefined' && module.exports) {
 
@@ -51,5 +51,3 @@ if (typeof module !== 'undefined' && module.exports) {
 }
 
 console.log('Aplicacao carregada com sucesso!');
-
-----------------
